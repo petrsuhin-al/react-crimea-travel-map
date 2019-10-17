@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="842113f8-5cf6-44b4-be12-fc76df326bf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/containers/RightUserMenu/RightUserMenu.jss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/containers/RightUserMenu/RightUserMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/AccountPage/AccountPage.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/AccountPage/AccountPage.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/AccountPage/AccountPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/AccountPage/AccountPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bundle.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/bundle.js.gz" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react-crimea-map" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="SCSS File" />
+        <option value="Less File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src</find>
+      <find>babel</find>
+      <find>hot</find>
+      <find>each</find>
+      <find>home</find>
+      <find>Priva</find>
+      <find>GETALL</find>
+      <find>app</find>
+      <find>menuButton</find>
+      <find>titleWrap</find>
+      <find>search</find>
+      <find>searchI</find>
+      <find>grid_se</find>
+      <find>theme</find>
+      <find>menuButt</find>
+      <find>titleWra</find>
+      <find>grid</find>
+      <find>icon</find>
+      <find>inputRoot</find>
+      <find>compose</find>
+      <find>uploader</find>
+      <find>id</find>
+      <find>padd</find>
+      <find>data</find>
+      <find>loggi</find>
+      <find>useravatar</find>
+      <find>profilePhoto</find>
+      <find>style</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1RWC73hnTFzlob6NkuoXQFBKuya" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.5.0" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/client/components/ErrorBoundary" />
+      <recent name="$PROJECT_DIR$/client/components/PrivateRoute" />
+      <recent name="$PROJECT_DIR$/ssl" />
+      <recent name="$PROJECT_DIR$/client/containers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/public/build" />
+      <recent name="$PROJECT_DIR$/server/controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="842113f8-5cf6-44b4-be12-fc76df326bf1" name="Default Changelist" comment="" />
+      <created>1543068016588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543068016588</updated>
+      <workItem from="1543068017878" duration="105000" />
+      <workItem from="1543068126129" duration="12975000" />
+      <workItem from="1543085014479" duration="2340000" />
+      <workItem from="1543098160292" duration="107000" />
+      <workItem from="1543658675515" duration="10550000" />
+      <workItem from="1543677260147" duration="9244000" />
+      <workItem from="1543753216709" duration="5887000" />
+      <workItem from="1543814035341" duration="2390000" />
+      <workItem from="1543911317960" duration="2269000" />
+      <workItem from="1543930288553" duration="11844000" />
+      <workItem from="1543946586527" duration="7272000" />
+      <workItem from="1544031950137" duration="68000" />
+      <workItem from="1544032037566" duration="3984000" />
+      <workItem from="1544782279729" duration="70000" />
+      <workItem from="1544796174505" duration="8283000" />
+      <workItem from="1544976339771" duration="11754000" />
+      <workItem from="1546788993673" duration="25292000" />
+      <workItem from="1546959597625" duration="8683000" />
+      <workItem from="1547043787817" duration="129077000" />
+      <workItem from="1548007613463" duration="51891000" />
+      <workItem from="1548769171556" duration="815000" />
+      <workItem from="1548770296088" duration="28000" />
+      <workItem from="1548770439464" duration="686000" />
+      <workItem from="1548771380861" duration="30000" />
+      <workItem from="1548771642537" duration="93862000" />
+      <workItem from="1549607770846" duration="174000" />
+      <workItem from="1549723668183" duration="16546000" />
+      <workItem from="1549745868313" duration="813000" />
+      <workItem from="1549812968191" duration="24529000" />
+      <workItem from="1549990129892" duration="28862000" />
+      <workItem from="1550341964673" duration="156544000" />
+      <workItem from="1551683686380" duration="115236000" />
+      <workItem from="1552406014897" duration="114502000" />
+      <workItem from="1553180685801" duration="28266000" />
+      <workItem from="1553444922511" duration="66822000" />
+      <workItem from="1553967375464" duration="13107000" />
+      <workItem from="1554750018106" duration="83000" />
+      <workItem from="1554793767812" duration="921000" />
+      <workItem from="1555241004475" duration="1966000" />
+      <workItem from="1555311321873" duration="1731000" />
+      <workItem from="1558954018010" duration="2177000" />
+      <workItem from="1559059906190" duration="2000" />
+      <workItem from="1559062583996" duration="35324000" />
+      <workItem from="1559378705989" duration="32425000" />
+      <workItem from="1559844286314" duration="7000" />
+      <workItem from="1559846984913" duration="618000" />
+      <workItem from="1560345026906" duration="2833000" />
+      <workItem from="1560591793393" duration="379000" />
+      <workItem from="1560599653925" duration="3329000" />
+      <workItem from="1560633504493" duration="5513000" />
+      <workItem from="1560882984346" duration="597000" />
+      <workItem from="1560967407341" duration="2641000" />
+      <workItem from="1561132826487" duration="8483000" />
+      <workItem from="1561294571357" duration="339000" />
+      <workItem from="1563038735515" duration="127000" />
+      <workItem from="1563960527889" duration="328000" />
+      <workItem from="1565275099616" duration="9127000" />
+      <workItem from="1565714923545" duration="640000" />
+      <workItem from="1565953325373" duration="605000" />
+      <workItem from="1569773301506" duration="237000" />
+      <workItem from="1571217974570" duration="246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

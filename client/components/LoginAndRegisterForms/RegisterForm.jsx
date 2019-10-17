@@ -1,0 +1,136 @@
+import React from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Fab, IconButton, InputAdornment, TextField, Typography, withStyles} from "@material-ui/core";
+import loginAndRegisterFormsStyles from "./LoginAndRegisterForms.jss";
+import SocialNetworksOAuth from "../../containers/SocialNetworksOAuth/SocialNetworksOAuth";
+
+
+const RegisterForm = ({
+    classes,
+    handleSubmit,
+    handleChange,
+    handleClickShowPassword,
+    showPassword,
+    email,
+    username,
+    submitted,
+    password
+}) => (
+    <div className={classes.loginContainer}>
+        <Typography className={classes.goalTitle} variant="h1">
+            Регистрация
+        </Typography>
+
+        <SocialNetworksOAuth/>
+
+        <Typography className={classes.subtitle} variant="subtitle1">
+            или
+        </Typography>
+
+        <form name="register-form" onSubmit={handleSubmit} className={classes.form} noValidate>
+            <TextField
+                label="Имя пользователя"
+                type="text"
+                autoComplete="nickname"
+                variant="outlined"
+                value={username}
+                error={submitted && !username}
+                onChange={handleChange('username')}
+                className={classes.textField}
+                InputLabelProps={{
+                    classes: {
+                        root: classes.tfLabelRoot,
+                        focused: classes.tfFocused,
+                    },
+                }}
+                InputProps={{
+                    classes: {
+                        root: classes.tfInputRoot,
+                        focused: classes.tfFocused,
+                        notchedOutline: classes.tfNotchedOutline,
+                    },
+                }}
+            />
+            <TextField
+                label="Электронная почта"
+                type="email"
+                autoComplete="multiple"
+                variant="outlined"
+                value={email}
+                error={submitted && !email}
+                onChange={handleChange('email')}
+                className={classes.textField}
+                InputLabelProps={{
+                    classes: {
+                        root: classes.tfLabelRoot,
+                        focused: classes.tfFocused,
+                    },
+                }}
+                InputProps={{
+                    classes: {
+                        root: classes.tfInputRoot,
+                        focused: classes.tfFocused,
+                        notchedOutline: classes.tfNotchedOutline,
+                    },
+                }}
+            />
+            <TextField
+                label="Пароль"
+                variant="outlined"
+                value={password}
+                type={showPassword ? 'text' : 'password'}
+                error={submitted && !password}
+                onChange={handleChange('password')}
+                autoComplete="current-password"
+                className={classes.textField}
+                InputLabelProps={{
+                    classes: {
+                        root: classes.tfLabelRoot,
+                        focused: classes.tfFocused,
+                    },
+                }}
+                InputProps={{
+                    endAdornment: (
+                        <InputAdornment position="end">
+                            <IconButton aria-label="Toggle password visibility"
+                                        onClick={handleClickShowPassword}
+                            >
+                                {
+                                    showPassword
+                                        ? <FontAwesomeIcon icon={["far", "eye"]} style={{width: '1em'}}/>
+                                        : <FontAwesomeIcon icon={["far", "eye-slash"]}
+                                                           style={{width: '1em'}}/>
+                                }
+                            </IconButton>
+                        </InputAdornment>
+                    ),
+                    classes: {
+                        root: classes.tfInputRoot,
+                        focused: classes.tfFocused,
+                        notchedOutline: classes.tfNotchedOutline,
+                    },
+                }}
+            />
+            <Fab variant="extended"
+                 aria-label="Вход"
+                 className={classes.margin}
+                 onClick={handleSubmit}
+                 classes={{
+                     root: classNames(classes.signInFabRoot, classes.signInFabRootIfRegister),
+                     label: classes.signInFabLabel
+                 }}
+            >
+                Вход
+            </Fab>
+        </form>
+    </div>
+);
+
+RegisterForm.propTypes = {
+    classes: PropTypes.object.isRequired,
+    variant: PropTypes.string.isRequired
+};
+
+export default withStyles(loginAndRegisterFormsStyles, {withTheme: true})(RegisterForm);

@@ -1,0 +1,15 @@
+{
+  "short_name": "TC",
+  "name": "TRIPSBANK CRIMEA",
+  "icons": [
+    {
+      "src":"icon.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#222",
+  "theme_color": "#222",
+  "display": "standalone"
+}
